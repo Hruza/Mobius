@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_TorusShader
+  m_Shader: {fileID: -6465566751694194690, guid: ab149c7aeeed81643beef4bee224744d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2f603a2dd52dca14e8fec155243e5051, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_240B98DB: 0.2
+    - Vector1_5D251FF6: 0.05
+    - Vector1_8CD7C3F8: 0.01
+    - Vector1_FF2FA26A: -0.1
+    - transfer: -0.1
+    m_Colors:
+    - Color_63B08773: {r: 0.057249136, g: 1, b: 0, a: 1}
+    - Color_BA29EE47: {r: 0, g: 3.78093, b: 4, a: 0}
+    - Vector2_8668A4AA: {r: 1, g: 1, b: 0, a: 0}
+    - _Color: {r: 0.77122504, g: 0.77254903, b: 0.24313726, a: 1}
+    - _Color2: {r: 0.77122504, g: 0.77254903, b: 0.24313726, a: 1}
+    - transfer: {r: 3.2495306, g: 5.2308483, b: 5.3403134, a: 1}
+    - transferColor: {r: 0, g: 3.78093, b: 4, a: 1}
+  m_BuildTextureStacks: []
